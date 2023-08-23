@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.nav-link.active {
+    font-weight: 510;
+}
+
+.navbar-brand {
+    font-size: 1.75em;
+    font-family: Dancing Script, serif;
+    padding-left: 5px;
+}
+
+.navbar-brand:hover {
+    cursor: default;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.btn-tel {
+    padding: 0;
+    padding-top: 7px;
+}
+
+.btn-tel>.btn {
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-inline: 6px;
+    font-size: 92%;
+    font-weight: 650;
+}
+
+.btn-tel svg {
+    margin-bottom: 2px;
+}
+
+.btn-tel span {
+    margin-left: 0.4em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.obl-cont {
+    height: 35vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.obl-cont img {
+    height: 35vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.app {
+    color: white;
+    font-size: 4em;
+    font-style: italic;
+    font-family: Poppins, serif;
+    font-weight: 600;
+    z-index: 2;
+    filter: drop-shadow(15px 8px 18px #000);
+}
+
+.app .app-text {
+    margin: 0;
+}
+
+.app .glav-app {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.med {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin-top: 0;
+    margin-inline: 3em;
+}
+
+.card {
+    margin-inline: 1em;
+    margin-bottom: 2em;
+}
+
+.text-cont {
+    margin-top: 0;
+    margin-inline: 10em;
+}
+
+.text-cont>p {
+    border-style: solid;
+    border-radius: 20px 20px 20px 20px;
+    border-color: rgba(119, 119, 119, 0.577);
+    border-width: 0.5px;
+    padding: 1em;
+}
+
+.text-cont-2 {
+    display: none;
+}
+
+.tel {
+    display: none;
+}
+
+.tel-min {
+    display: none;
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+}
+
+footer p {
+    color: white;
+    margin-bottom: 0.75em;
+}
+
+footer .container-fluid {
+    background-color: #212934;
+    border-radius: 15px 15px 0 0;
+    padding-bottom: 1em;
+}
+
+footer .row {
+    margin: 0;
+}
+
+.inst {
+    margin-bottom: 3em;
+}
+
+.left-txt-foot,
+.prav-inf {
+    margin-top: 1em;
+}
+
+.img-foot {
+    text-align: center;
+}
+
+.img-foot>div {
+    display: inline-block;
+    width: 18em;
+    margin-top: 1.5em;
+}
+
+.img-foot>div>a>img {
+    max-width: 100%;
+}
+
+.prav-inf {
+    text-align: right;
+}
+
+.prav-inf>p {
+    margin-top: 5.5em;
+}
+
+.prav-inf>p>a:hover,
+.left-txt-foot a:hover {
+    color: rgb(214, 214, 214);
+}
+
+footer p,
+footer a {
+    font-size: 90%;
+}
+
+@media (max-width: 991px) {
+    .btn-tel-cont {
+        display: none;
+    }
+    
+    .app {
+    font-size: 3em;
+}
+
+    .app .glav-app {
+    font-size: 1rem;
+}
+
+    .text-cont {
+    margin-inline: 2.5em;
+}
+
+    .tel {
+        display: block;
+    }
+
+    .comp {
+        display: none;
+    }
+
+    footer p {
+        margin-bottom: 0.5em;
+    }
+
+    footer a {
+        color: white;
+    }
+
+    .left-txt-foot-tel {
+        margin-top: 1em;
+    }
+
+    .inst {
+        margin-bottom: 0.75em;
+    }
+
+    .prav-inf-tel>p>a:hover,
+    .left-txt-foot-tel a:hover {
+        color: rgb(214, 214, 214);
+    }
+     
+    .right-txt-foot-tel {
+        margin-top: 1em;
+    }
+
+    .prav-inf-tel {
+        text-align: right;
+    }
+
+    .btm-img-tel {
+        text-align: right;
+    }
+
+    .btm-img-tel>div {
+        display: inline-block;
+    }
+
+    .btm-img-tel img {
+        max-width: 12em;
+    }
+
+}
+
+@media (max-width: 632px) {
+    .app>div>p {
+    font-size: 2em;
+}
+    
+    .text-cont {
+    display: none;
+}
+    .med {
+    margin-bottom: 2em;
+    }
+
+    .text-cont-2 {
+    display: block;
+    margin-inline: 0.5em;
+}
+
+    .text-cont-2>p {
+    border-style: solid;
+    border-radius: 20px 20px 20px 20px;
+    border-color: rgba(119, 119, 119, 0.577);
+    border-width: 0.5px;
+    padding: 0.5em;
+}
+}
+
+@media (max-width: 515px) {
+    .row {
+    margin-inline: 0.5em;
+}
+}
+
+@media (max-width: 378px) {
+    .tel {
+        display: none;
+    }
+    
+    .tel-min {
+        display: block;
+        padding-top: 1em;
+        padding-left: 12px;
+        font-size: 90%;
+    }
+
+    .tel-min p {
+        margin-bottom: 0.5em;
+    }
+
+    .img-foot-tel-min {
+        max-width: 12em;
+        margin-bottom: 0.5em;
+    }
+
+    .img-foot-tel-min img {
+        max-width: 100%;
+    }
+}
